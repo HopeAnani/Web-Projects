@@ -1,0 +1,144 @@
+body {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #130f0c;
+}
+
+.container {
+	width: 45%;
+	height: 100%;
+	padding: 10px;
+	border-radius: 8px;
+	box-shadow: 12px 12px 20px #34312e,-12px -12px 20px #000000;
+
+}
+
+.display #screen {
+	width: 97%;
+	height: 70px;
+	font-size: 35px;
+	outline: none;
+	border: none;
+	text-align: right;
+	padding-right: .5rem;
+	background:#130f0c;
+	color: white;
+	border-radius: 6px;
+	box-shadow: inset 8px 8px 8px #34312e, inset -8px -8px 8px #000000;
+}
+
+.btns{
+	width: 100%;
+	margin-top: 1.7rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.btns .row button{
+	width: 80px;
+	height: 30px;
+	font-size: 16px;
+	border: none;
+	outline: none;
+	margin: 5px;
+	border-radius: 4px;
+	box-shadow: 5px 5px 8px #000020, -5px -5px 8px #000000;
+	transition: .1s;
+}
+
+.btns .row button:hover{
+	box-shadow: inset 5px 5px 8px rgba(239, 239, 239, .1), inset -5px -5px 8px #000000;
+	background: #000000;
+	color: white;
+}
+
+#eval{
+	background: #cc3300;
+	color: #000000;
+	box-shadow: inset 5px 5px 8px #992600, inset -5px -5px 8px #ff5319;
+}
+
+#eval:hover{
+	box-shadow: inset 5px 5px 8px #ff5319, inset -5px -5px 8px #ff5319;
+}
+
+#ac{
+	background: #cc33cc;
+	color: #000000;
+	/*box-shadow: inset 5px 5px 8px #66d9ff, inset -5px -5px 8px #00ace6;*/
+}
+
+#ac:hover{
+	box-shadow: inset 5px 5px 8px #d147d1, inset -5px -5px 8px #cc33cc;
+}
+
+#ce{
+	background: #00cc66;
+	color: #000000;
+	/*box-shadow: inset 5px 5px 8px #66d9ff, inset -5px -5px 8px #00ace6;*/
+}
+
+#ce:hover{
+	box-shadow: inset 5px 5px 8px #19ff8c, inset -5px -5px 8px #00cc66;
+} 
+
+@media (max-width: 1245px){
+	.container{
+		width: 70%;
+	}
+}
+
+@media (max-width: 1024px){
+	.container{
+		width: 55%;
+	}
+}
+@media (max-width: 800px){
+	.container{
+		width: 35%;
+	}
+}
+@media (max-width: 768px){
+	.container{
+		width: 75%;
+	}
+}
+@media (max-width: 540px){
+	.container{
+		width: 52%;
+	}
+}
+@media (max-width: 414px){
+	.container{
+		width: 68%;
+	}
+}
+@media (max-width: 390px){
+	.container{
+		width: 72%;
+	}
+}
+
+@media (max-width: 375px){
+	.container{
+		width: 75%;
+	}
+}
+
+@media (max-width: 360px){
+	.container{
+		width: 78%;
+	}
+}
+
+@media (max-width: 280px){
+	.container{
+		width: 66%;
+	}
+}
