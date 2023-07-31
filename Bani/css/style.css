@@ -285,7 +285,7 @@ section{
 }
 
 .products .box-container .box:hover{
-	transform: scale(1.1);
+	transform: scale(1.02);
 }
 
 .products .box-container .box .icons a{

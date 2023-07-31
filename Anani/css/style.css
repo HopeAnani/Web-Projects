@@ -460,7 +460,7 @@ h3.my-profession{
 }
 /* service */
 .service .container{
-	padding bottom: 40px;
+	padding-bottom: 40px;
 }
 .service .service-item{
 	margin-bottom: 30px;

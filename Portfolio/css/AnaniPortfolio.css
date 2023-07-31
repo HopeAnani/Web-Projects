@@ -8,8 +8,8 @@
 .hero{
 	height: 100vh;
 	width: 100%;
-	background-color: black;
-	background-image: url(../image/background3.jpg);
+	background-color: #101010;
+	/* background-image: url(../image/background3.jpg); */
 	background-size: cover;
 	background-position: top;
 }
@@ -24,7 +24,7 @@ nav{
 }
 
 .logo{
-	color: darkgrey;
+	color: orangered;
 	font-size: 35px;
 	letter-spacing: 1px;
 	cursor: pointer;
@@ -34,6 +34,7 @@ span{
 	color: white;
 }
 
+
 nav ul li{
 	list-style-type: none;
 	display: inline-block;
@@ -41,19 +42,23 @@ nav ul li{
 }
 
 nav ul li a {
-	color: darkgray;
+	color: white;
 	text-decoration: none;
 	font-weight: bold;
 	text-transform: capitalize;
 }
 
 nav ul li a:hover{
-	color: white;
+	/* color: orangered; */
+	font-size: larger;
+	text-decoration: underline solid orangered;
+	text-underline-offset: 10px;
+	text-decoration-thickness: 5px;
 	transition: .4s;
 }
 
 .btn{
-	background-color: darkgrey;
+	background-color: orangered;
 	color: white;
 	text-decoration: none;
 	border: 2px solid transparent;
@@ -66,7 +71,7 @@ nav ul li a:hover{
 .btn:hover{
 	transform: scale(1.2);
 	background-color: transparent;
-	border: 2px solid darkgrey;
+	border: 2px solid orangered;
 	cursor: pointer;
 }
 
@@ -83,18 +88,18 @@ nav ul li a:hover{
 }
 
 h1{
-	color: rgba(236, 236, 236, 0.5);
+	color: rgb(255, 69, 0);
 	margin: 20px 0px 20px;
 	font-size: 75px;
 }
 h1:hover{
-	color: darkgrey;
+	color: rgb(255, 69, 0);
 	transition: transform .4s;
 	transform: scale(1.1);
 }
 
 h3{
-	color: darkgrey;
+	color: orangered;
 	font-size: 25px;
 	margin-bottom: 50px;
 }
@@ -115,7 +120,7 @@ h4{
 	display: inline-block;
 	width: 100%;
 	padding: 14px 130px 14px 15px;
-	border: 2px solid darkgrey;
+	border: 2px solid orangered;
 	outline: none;
 	border-radius: 30px;
 
@@ -128,7 +133,7 @@ h4{
 	border: none;
 	padding: 10px 30px;
 	border-radius: 30px;
-	background-color: darkgrey;
+	background-color: orangered;
 	color: whitesmoke;
 	box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
 	top: 6px;
@@ -144,6 +149,13 @@ h4{
 .about img{
 	height: auto;
 	width: 430px;
+}
+
+.photo img{
+	height: auto;
+	width: 430px;
+	float: right;
+	margin: 50px;
 }
 
 .about-text{
@@ -168,7 +180,7 @@ h4{
 }
 
 .about-text h5{
-	color: darkgrey;
+	color: orangered;
 	letter-spacing: 2px;
 	font-size: 22px;
 	margin-bottom: 25px;
@@ -184,7 +196,7 @@ h4{
 }
 
 button{
-	background-color: darkgrey;
+	background-color: orangered;
 	color: white;
 	text-decoration: none;
 	border: 2px solid transparent;
@@ -196,7 +208,7 @@ button{
 
 button:hover{
 	background-color: transparent;
-	border: 2px solid darkgrey;
+	border: 2px solid orangered;
 	cursor: pointer;
 }
 
@@ -238,7 +250,7 @@ button:hover{
 	display: block;
 	text-align: center;
 	margin: 25px 0px;
-	color: darkgrey;
+	color: orangered;
 
 }
 
@@ -249,14 +261,14 @@ h5{
 }
 
 .pra p{
-	color: darkgrey;
+	color: orangered;
 	font-size: 16px;
 	line-height: 27px;
 	margin-bottom: 25px;
 }
 
 .card .button{
-	background-color: darkgrey;
+	background-color: orangered;
 	color: white;
 	text-decoration: none;
 	border: 2px solid transparent;
@@ -269,7 +281,7 @@ h5{
 
 .card .button:hover{
 	background-color: transparent;
-	border: 2px solid darkgrey;
+	border: 2px solid orangered;
 	cursor: pointer;
 }
 
@@ -291,7 +303,7 @@ h5{
 }
 
 .contact-me .button-two{
-	background-color: darkgrey;
+	background-color: orangered;
 	color: whitesmoke;
 	text-decoration: none;
 	border: 2px solid transparent;
@@ -303,7 +315,7 @@ h5{
 
 .contact-me .button-two:hover{
 	background: transparent;
-	border: 2px solid darkgrey;
+	border: 2px solid orangered;
 	cursor: pointer;
 }
 
@@ -343,7 +355,7 @@ footer p:nth-child(2){
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: darkgrey;
+	background: orangered;
 	border-radius: 50%;
 	margin: 22px 10px;
 	color: white;
@@ -355,12 +367,12 @@ footer p:nth-child(2){
 	transform: scale(1.3);
 	transition: .3s;
 	background: transparent;
-	border: 2px solid darkgrey;
+	border: 2px solid orangered;
 }
 
 .end{
 	position: absolute;
-	color: darkgrey;
+	color: orangered;
 	bottom: 35px;
 	font-size: 14px;
 }
